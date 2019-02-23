@@ -1,0 +1,13 @@
+{
+  "name": "@reactweek/monoapp",
+  "version": "1.0.0",
+  "description": "Javascript Monorepo - React Week",
+  "main": "index.js",
+  "repository": "git@github.com:alejandronanez/react-monorepo.git",
+  "author": "Alejandro Nanez <alejonanez@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

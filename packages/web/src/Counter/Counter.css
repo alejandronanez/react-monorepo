@@ -1,0 +1,17 @@
+.Counter {
+  display: grid;
+}
+
+.Counter__buttons {
+  column-gap: 30px;
+  display: inline-grid;
+  grid-auto-flow: column;
+}
+
+.Counter button[type='button'] {
+  font-size: 32px;
+}
+
+.Counter button[type='button']:hover {
+  cursor: pointer;
+}

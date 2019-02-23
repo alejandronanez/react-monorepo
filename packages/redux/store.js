@@ -1,7 +1,5 @@
 import { createStore } from 'redux';
-
-export const INCREMENT = 'INCREMENT';
-export const DECREMENT = 'DECREMENT';
+import { INCREMENT, DECREMENT } from './constants.js';
 
 function counter(state = 0, action) {
   switch (action.type) {

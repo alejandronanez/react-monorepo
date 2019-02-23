@@ -1,10 +1,12 @@
 {
-  "name": "web",
+  "name": "@reactweek/web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@reactweek/redux": "1.0.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
+    "react-redux": "^6.0.1",
     "react-scripts": "2.1.5"
   },
   "scripts": {
