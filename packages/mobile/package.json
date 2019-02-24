@@ -4,12 +4,14 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "start:ios": "react-native run-ios"
   },
   "dependencies": {
+    "@reactweek/redux": "1.0.0",
     "react": "^16.8.3",
     "react-native": "0.58.5",
-    "@reactweek/redux": "1.0.0"
+    "react-redux": "^6.0.1"
   },
   "devDependencies": {
     "babel-core": "^7.0.0-bridge.0",
@@ -22,10 +24,12 @@
   "jest": {
     "preset": "react-native"
   },
-  "nohoist": [
-    "**/react-native",
-    "**/react-native/**",
-    "**/jest",
-    "**/jest/**"
-  ]
+  "workspaces": {
+    "nohoist": [
+      "**/react-native",
+      "**/react-native/**",
+      "**/jest",
+      "**/jest/**"
+    ]
+  }
 }

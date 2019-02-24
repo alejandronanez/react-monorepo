@@ -2,15 +2,15 @@
 
 ## GOALS
 
-- [] Setup a RN project
-- [] Share @reactweek/redux in RN
-- [] Add eslint to @reactweek/redux
-- [] Improve npm project scripts
-  - [] eslint
-  - [] tests
-  - [] prettier
+- [x] Setup a RN project
+- [x] Share @reactweek/redux in RN
+- [ ] Add eslint to @reactweek/redux
+- [ ] Improve npm project scripts
+  - [ ] eslint
+  - [ ] tests
+  - [ ] prettier
 
 ## STRETCH GOALS
 
-- [] Setup deploy processes
-- [] Create a shared eslint config
+- [ ] Setup deploy processes - maybe _Github actions_?
+- [ ] Create a shared eslint config
