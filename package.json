@@ -7,7 +7,13 @@
   "author": "Alejandro Nanez <alejonanez@gmail.com>",
   "license": "MIT",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ]
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/react-native",
+      "**/react-native/**"
+    ]
+  }
 }
