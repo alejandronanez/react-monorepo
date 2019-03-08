@@ -1,16 +1,6 @@
-# react-monorepo
+# React Monorepo - React Week 2019
 
-## GOALS
-
-- [x] Setup a RN project
-- [x] Share @reactweek/redux in RN
-- [ ] Add eslint to @reactweek/redux
-- [ ] Improve npm project scripts
-  - [ ] eslint
-  - [ ] tests
-  - [ ] prettier
-
-## STRETCH GOALS
-
-- [ ] Setup deploy processes - maybe _Github actions_?
-- [ ] Create a shared eslint config
+## How to run this project
+1. `yarn install`
+2. `yarn workspace @reactweek/web start` to run the web project.
+3. `yarn workspace @reactweek/mobile start:ios` to run the mobile project.
